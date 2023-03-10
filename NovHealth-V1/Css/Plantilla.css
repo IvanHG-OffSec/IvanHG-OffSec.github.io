@@ -1,0 +1,16 @@
+.imagenesGrandes{
+    width: 80vw;
+    height: 35vh;
+    margin-top: 5vh;
+    border-style: solid;
+    border-color: black;
+}
+
+.imagenesPequenas{
+    width: 35vw;
+    height: 30vh;
+    margin-top: 8vh;
+    margin-left: 3vw;
+    border-style: solid;
+    border-color: black;
+}

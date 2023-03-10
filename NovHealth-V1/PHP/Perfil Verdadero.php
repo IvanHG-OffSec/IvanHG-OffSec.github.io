@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Perfil</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Css/Perfil.css">
+</head>
+
+<body>
+    <div class="Cabecera">
+        <div class="NovHealth">
+            <div class="NovHealth-Texto">
+            <a  href="Main.php"> <p class="NovHealth">NovHealth</p> </a>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="Titulo">Perfil</h3>
+
+    <div class="Cuerpo">
+        <div class="Barra-Lateral">
+            <a href="#">
+                <p class="Barra-Opciones">Perfil</p>
+            </a>
+        </div>
+
+        <?php include('EditarPerfil.php'); ?>
+
+        <div class="Formulario">
+            <form action="Perfil.php" method="post">
+                <div class="Formulario-Entrada">
+                    <label for="Picture">Foto De Perfil</label> <br />
+                    <input type="file" accept="image/*" name="Foto" id="Picture" class="Entrada">
+                </div>
+
+                <div class="Formulario-Entrada">
+                    <label for="name">Nombre(s) </label> 
+                    <input type="text" name="Nombre" id="Name" class="Entrada">
+                </div>
+
+                <div class="Formulario-Entrada">
+                    <label for="LastName">Apellidosㅤ</label> 
+                    <input type="text" name="Apellidos" id="LastName" class="Entrada">
+                </div>
+
+                <div class="Formulario-Entrada">
+                    <label for="Password">Contraseña</label> 
+                    <input type="password" name="Contrasena" id="Password" class="Entrada">
+                </div>
+
+                <div class="Formulario-Entrada">
+                    <label for="AboutMe">Acerca De Mi</label> <br /> 
+                    <input type="text" name="AcercaDeMi" id="AboutMe">
+                </div>
+
+                <input type="submit" value="Guardar Cambios" class="GuardarCambios">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

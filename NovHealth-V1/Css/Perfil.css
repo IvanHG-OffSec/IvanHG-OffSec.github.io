@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.Cabecera{
+    background-color: black;
+    height: 10vh;
+    padding-top: 1.7vh;
+    padding-left: 1.7vw;
+}
+
+.NovHealth{
+    border-radius: 15px;
+    background-color: white;
+    width: 15vw;
+    height: 7vh;
+}
+
+.NovHealth-Texto{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Titulo{
+    color: gray;
+    font-size: 50px;
+    margin-top: 1vh;
+    margin-left: 20vw;
+}
+
+.Cuerpo{
+    display: grid;
+    grid-template-columns: 20vw 1fr;
+    font-size: 30px;
+}
+
+.Barra-Lateral{
+    grid-column: 1/2;
+    margin-top: 22vh;
+    padding: 2.2vw;
+}
+
+.Barra-Opciones{
+    border-color: gray;
+    border-style: solid;
+    border-width: 1;
+}
+
+.Formulario{
+    grid-column: 2/2;
+    margin-left: 10vw;
+}
+
+.Entrada{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Formulario-Entrada{
+    margin-top: 20px;    
+}
+
+#AboutMe{
+    width: 50vw;
+    height: 30vh;
+}
+
+.GuardarCambios{
+    margin-top: 5vh;
+    margin-left: 15vw;
+}

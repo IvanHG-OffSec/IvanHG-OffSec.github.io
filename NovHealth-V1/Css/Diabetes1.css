@@ -1,0 +1,12 @@
+.contenedorTexto{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: justify;
+}
+
+.imagen{
+    margin-top: 7vh;
+    width: 80vw;
+    border-style: solid;
+    border-color: black;
+}
